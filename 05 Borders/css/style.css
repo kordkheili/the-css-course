@@ -1,0 +1,27 @@
+.my-paragraph{
+    /*border-bottom-width:5px;
+    border-bottom-style:dotted;
+    border-bottom-color:cornflowerblue;
+    border-right-width:5px;
+    border-right-style:solid;
+    border-right-color:aquamarine;*/
+
+    /*border-right:5px solid red;
+    border-bottom:5px solid red;
+    border-left:5px solid red;
+    border-top:5px solid blue;*/
+
+    /*border-left:6px solid #2196F3;
+    background-color:#ddffff;
+    padding: 10px;*/
+
+    border:1px solid #999;
+    padding: 70px;
+    /*
+    border-radius: 10px;
+    border-top-right-radius:40px;
+    border-top-left-radius:40px;
+    border-bottom-right-radius:40px;
+    border-bottom-rleft-radius:40px;*/
+    border-radius: 50%;
+}

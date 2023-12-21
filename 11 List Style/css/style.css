@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    font-family: Tahoma;
+    font-size: 17px;
+}
+.mylist{
+    list-style-type: lower-alpha;
+    /*list-style-image: url("../images/back-17.png");*/
+    list-style-type: none;
+    list-style-position: inside;
+}
+.mylist li{
+    margin-top: 10px;
+    transition: all 0.5s;
+}
+.mylist li:hover{
+    padding-right: 20px;
+}
+.mylist li img{
+    height: 20px;
+    vertical-align: bottom;
+}
+.mylist2{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    list-style-type: none;
+    list-style-position: inside;
+
+}
+.mylist2 li{
+    background-image: url("../images/back.png");
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-position: right center;
+    padding-right: 30px;
+}
+.mylist2 li:hover{
+
+}

@@ -1,0 +1,51 @@
+.myp{
+    color: red;
+    text-align: justify;
+    font-family: "A nic";
+    font-size: 20px;
+}
+.text-blue{
+    color:blue;
+
+}
+html{
+    direction:rtl;
+}
+.my-icon{
+    width: 17px;
+    vertical-align: middle;
+}
+.ltr-box{
+    direction: ltr;
+    display: inline-block;
+}
+.mytransform{
+    text-transform:capitalize;
+}
+.my-vip-word{
+    font-weight: bold;
+    font-style: italic;
+    text-decoration:crimson overline;
+    text-shadow: 0.5px 0.5px darkred;
+}
+.the-letterspacing{
+    letter-spacing: -1.2px;
+}
+.mybtn{
+    width: 300px;
+    height: 40px;
+    line-height: 40px;
+    background-color: crimson;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+.mybtn a{
+    color: #fff;
+    text-decoration: none;
+}
+h1{
+   text-transform: capitalize;
+    direction: ltr;
+    text-shadow: crimson -2px 0px;
+}

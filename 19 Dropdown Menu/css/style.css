@@ -1,0 +1,104 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    width: 980px;
+    height: 50px;
+    background-color:#888;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+nav>ul{
+    list-style-type: none;
+    list-style-position: inside;
+}
+nav>ul>li{
+    float: left;
+    color: #FFF;
+    height: 50px;
+    line-height: 50px;
+    padding: 0px 30px;
+    border-right: #FFFFFF 1px solid;
+    position: relative;
+}
+nav>ul>li:hover{
+    background-color: #999;
+    cursor: pointer;
+}
+nav>ul>li:hover .dropdown-content{
+    opacity: 1;
+    visibility: visible;
+    top: 50px;
+    transition: all 0.2s;
+}
+nav img{
+    width: 50px;
+    float: left;
+    margin-left: 20px;
+}
+.dropdown-content{
+    width: 200px;
+    background-color: #FFF;
+    border: 1px solid #aaa;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    position: absolute;
+    left: 0px;
+    top: 150px;
+    visibility: hidden;
+    opacity: 0;
+
+}
+.dropdown-content ul{
+    list-style-position: inside;
+    list-style-type: none;
+}
+.dropdown-content ul li{
+    padding:5px 15px;
+    color: #000;
+    position: relative;
+}
+.dropdown-content ul li img{
+   width: 10px;
+    position: absolute;
+    right: 20px;
+    top: 25px;
+    transition: all 0.5s;
+}
+.dropdown-content ul li:hover .myright{
+    right: 10px;
+}
+.dropdown-content ul li:last-child{
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.dropdown-content ul li:hover{
+    background-color: #ddd;
+    cursor: pointer;
+}
+.dropdown2-content{
+    width: 200px;
+    height: 200px;
+    background-color: #FFF;
+    border: 1px solid #999;
+    position: absolute;
+    left: 200px;
+    top: 0px;
+    display: none;
+}
+.dropdown-content ul li:hover .dropdown2-content{
+    display: block;
+}
+.mydown{
+    width: 10px;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    transition: all 0.5s;
+}
+nav>ul>li:hover .mydown{
+    transform: rotate(180deg);
+}
+
+

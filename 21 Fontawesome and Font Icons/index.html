@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="fonts/fontawesome-free-5.15.2-web/css/all.min.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        .btn{
+            display: inline-block;
+            padding: 10px 50px;
+            background-color: #809BCE;
+            border-radius: 10px;
+            cursor: pointer;
+            font-weight: bold;
+            border: 5px solid #B8E0D2;
+        }
+        li{
+            list-style-type: none;
+            list-style-position: inside;
+            width: 200px;
+            margin-top: 3px;
+
+            transition: all 0.5s;
+            box-sizing: border-box;
+        }
+
+        .vip_list_1 li::before{
+            content: "\f105";
+            font-family: "Font Awesome 5 Free";
+            font-weight: bold;
+            margin-right: 5px;
+        }
+        .vip_list_1 li{
+            background: #809BCE;
+            padding: 10px;
+        }
+        .vip_list_1 li:hover{
+            padding-left: 20px;
+        }
+        .vip_list_2 li::before{
+            content: "\f26e";
+            font-family: "Font Awesome 5 Brands";
+            font-weight: bold;
+            margin-right: 5px;
+        }
+        .vip_list_2 li{
+            padding: 3px 10px;
+        }
+        .vip_list_2 li:hover{
+            padding-left: 20px;
+        }
+
+        .relative_container{
+            position: relative;
+            padding-right: 30px;
+        }
+        .myicon{
+            position: absolute;
+            left: 13px;
+            top: 11px;
+            transition: all 0.5s;
+        }
+        .relative_container:hover .myicon{
+            left: 17px;
+        }
+    </style>
+</head>
+<body>
+    <a class="btn" href="uploads/fontawesome-free-5.15.2-web.zip">
+        <i class="fas fa-download"></i>
+        Download Fontawesome v5 !
+    </a>
+
+    <ul class="vip_list_1">
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+    </ul>
+
+    <ul class="vip_list_2">
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+    </ul>
+
+    <a class="btn relative_container" href="uploads/fontawesome-free-5.15.2-web.zip">
+        <i class="fas fa-download myicon"></i>
+        Download Fontawesome v5 !
+    </a>
+</body>
+</html>

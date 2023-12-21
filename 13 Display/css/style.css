@@ -1,0 +1,9 @@
+span{
+    border:5px solid green;
+    display: block;
+}
+div{
+    border:5px solid green;
+    display: inline-block;
+    margin-top: 100px;
+}
